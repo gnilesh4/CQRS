@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="8.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\CQRS.Domain\CQRS.Domain.csproj" />
+      <ProjectReference Include="..\CQRS.ViewModel\CQRS.ViewModel.csproj" />
+    </ItemGroup>
+</Project>
